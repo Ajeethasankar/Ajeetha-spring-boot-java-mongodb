@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div align=center>
+<h1>upload and view Photo</h1>
+
+<h1>Upload  Photo</h1>
+
+<form method="POST" action="/photos/add" enctype="multipart/form-data">
+    Name:<input type="text" name="name" /><br>
+    Email:<input type="text" name="email" /><br>
+	Title:<input type="text" name="title" /><br>
+	
+	<br>
+	Image:<input type="file" name="image" accept="image/*" />
+	<br>
+	<br>
+    <input type="submit" value="Upload" />
+</form>
+</div>
+
+</body>
+</html>

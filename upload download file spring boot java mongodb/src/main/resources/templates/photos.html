@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Student details</h1>
+	<br> Name:
+	<span th:text="${name}">name</span>
+	<br> Email:
+	<span th:text="${email}">name</span>
+	<br> Title:
+	<span th:text="${title}">name</span>
+	<br>
+
+	<img alt="" th:src="${image}" width="50" />
+	<br>
+	<br>
+		
+</body>
+</html>

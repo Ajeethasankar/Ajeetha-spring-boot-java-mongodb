@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html  xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div align=center>
+	<h1>Home Page</h1>
+	<div th:if="${message != null}" th:text="${message}">Message</div>
+	<br/>
+	<a href="/photos/upload">Upload Photo</a><br>
+	<a href="/display"> Display All  Details</a>
+	</div>
+</body>
+</html>
